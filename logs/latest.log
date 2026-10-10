@@ -1,0 +1,17 @@
+[23:37:15] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.19.5
+[23:37:15] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[23:37:15] [main/WARN]: Mod resolution failed
+[23:37:15] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE nemesis 1.0-SNAPSHOT {depends fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE nemesis 1.0-SNAPSHOT]
+[23:37:15] [main/INFO]: Reason: [HARD_DEP nemesis 1.0-SNAPSHOT {depends fabric-api @ [*]}]
+[23:37:15] [main/INFO]: Fix: add [add:fabric-api 1 ([(-∞,∞)])], remove [], replace []
+[23:37:15] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install fabric-api, any version.
+More details:
+	 - Mod 'Nemesis' (nemesis) 1.0-SNAPSHOT requires any version of fabric-api, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:202)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
